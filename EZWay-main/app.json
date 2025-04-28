@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "EZWay",
+    "slug": "ezway",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo.svg",
+    "splash": {
+      "image": "./src/assets/images/logo.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/logo.svg",
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.anonymous.ezway"
+    },
+    "web": {
+      "favicon": "./src/assets/images/logo.svg"
+    }
+  }
+}
